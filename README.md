@@ -28,6 +28,7 @@ transporte diretamente no mapa da aplicação.
 
 ## Como executar
 
-Dentro do diretório, execute `ng serve` para executar a versão de desenvolvimento. Depois acesse `http://localhost:4200/`.
+- Dentro do diretório, execute `ng serve` para executar a versão de desenvolvimento.
+- Depois acesse `http://localhost:4200/`.
 
 # DataPoaLine
