@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mt-1">
+            <img src="http://www.poatransporte.com.br/web/images/botoes/logo_poatransporte.png" alt="POA Transporte"
+                width="350">
+            <mat-tab-group>
+                <mat-tab label="Ônibus">
+                    <app-line [dataSource]="lineBus" (detailEmitter)="getItinerary($event)" (clearMapEmitter)="clearMap()">
+                    </app-line>
+                </mat-tab>
+                <mat-tab label="Lotação">
+                    <app-line [dataSource]="lineLotation" (detailEmitter)="getItinerary($event)"
+                        (clearMapEmitter)="clearMap()">
+                    </app-line>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    
+        <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-9">
+            <app-map></app-map>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~leaflet/dist/leaflet.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table { width: 100%; }
+
+.mat-form-field {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+/* Home */
+
+#content {
+    max-width: 350px;
+    width: 100%;
+    z-index: 10000;
+    height: 100%;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+.map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.map-frame {
+    height: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+/* !Home */
+
+#line-result {
+    height: calc(100vh - 198px) !important;
+    overflow: auto;
+}
+
+/* Line */
+
+form {
+    background: #f1f1f1;
+    padding: 4px 8px 8px;
+}
+
+.mat-list-text {
+    font-size: 13px;
+}
+
+mat-form-field.mat-form-field {
+    font-size: 13px;
+  }
+
+.mat-form-field-infix {
+    padding: 1em 0 1em 0 !important;
+    border-top: .2em solid transparent !important;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0 !important;
+}
+
+/* !Line */
+
+@media (max-width: 575.98px) {
+
+ }

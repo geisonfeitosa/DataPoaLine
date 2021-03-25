@@ -1,0 +1,16 @@
+<form>
+    <mat-form-field appearance="outline">
+        <input matInput (keyup)="applyFilter($event)" placeholder="Buscar (Filtro)">
+    </mat-form-field>
+    <div class="d-flex flex-row-reverse">
+        <button mat-stroked-button type="button" (click)="clearMap()">Limpar mapa</button>
+    </div>
+</form>
+
+<mat-selection-list [multiple]="false" id="line-result">
+    <mat-list-option *ngFor="let item of dataSource" (click)="getItinerary(item.id)">
+        <div>
+            <b>{{item.codigo}}</b> {{item.nome}}
+        </div>
+    </mat-list-option>
+</mat-selection-list>
