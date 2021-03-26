@@ -1,9 +1,7 @@
 # DataPoaLine
 
 <p align="center">
-  <a href="https://po-ui.io">
-    <img width="950" src="./src/assets/print.png">
-  </a>
+   <img width="950" src="./src/assets/print.png">
 </p>
 
 ## Escopo
